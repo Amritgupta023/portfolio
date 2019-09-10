@@ -1,0 +1,42 @@
+[
+    {
+        "index": 0,
+        "subject": "NodeJs",
+        "percentage": "70%"
+    },
+    {
+        "index": 1,
+        "subject": "JavaScript",
+        "percentage": "70%"
+    },
+    {
+        "index": 2,
+        "subject": "Angular",
+        "percentage": "70%"
+    },
+    {
+        "index": 3,
+        "subject": "MongoDb",
+        "percentage": "70%"
+    },
+    {
+        "index": 4,
+        "subject": "Topic",
+        "percentage": "70%"
+    },
+    {
+        "index": 5,
+        "subject": "Angular",
+        "percentage": "70%"
+    },
+    {
+        "index": 6,
+        "subject": "MongoDb",
+        "percentage": "70%"
+    },
+    {
+        "index": 7,
+        "subject": "Topic",
+        "percentage": "70%"
+    }
+]

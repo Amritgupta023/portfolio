@@ -1,0 +1,219 @@
+
+.fullScreen{
+  background-image: url('./../../assets/image/black_wall.jpg');
+  background-color: #cccccc;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.center-block{
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  font-family: 'Raleway';
+}
+
+.center-block span{
+  font-size: 3rem;
+}
+.display-block{
+  display: block;
+}
+.red-name{
+  color: #E31B6D;
+}
+.view-my-work-btn{
+  background: transparent;
+  border:2px solid white;
+  // border-radius: 2px;
+  color:white;
+  margin-top: 20px;
+  padding: 10px 25px;
+  font-size: 1.5rem;
+}
+.view-my-work-btn:hover{
+  background: #04C2C9;
+  border: 2px solid #04C2C9;
+}
+.nav-bar-fit{
+  background: black;
+  color: rgb(207, 173, 173);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.hexagon-icon{
+  background: #04C2C9;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+
+.project-image{
+  height: 300px;
+  width: 300px;
+  padding: 15px;
+}
+// .hexagon-icon:before {
+//   position: absolute;
+//   top: 0;
+//   right: calc((100% / 2) - ((100% * 0.57735) / 2));
+//   background-color: inherit;
+//   height: inherit;
+//   width: inherit;
+//   content: '';
+//   transform: rotateZ(60deg);
+// }
+
+// .hexagon-icon:after {
+//   position: absolute;
+//   top: 0;
+//   right: calc((100% / 2) - ((100% * 0.57735) / 2));
+//   background-color: inherit;
+//   height: inherit;
+//   width: inherit;
+//   content: '';
+//   transform: rotateZ(-60deg);
+// }
+
+.about-main-heading{
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.hexagon-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hexagon-icon i{
+  font-size: 3rem;
+  color:white;
+}
+
+.about-heading{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.about-sub-heading{
+  font-size: 16px;
+  margin-top:10px;
+}
+
+.margin-top-20{
+  margin-top: 20px;
+}
+.margin-bottom-20{
+  margin-bottom: 20px;
+}
+.margin-top-40{
+  margin-top: 40px;
+}
+.margin-bottom-40{
+  margin-bottom: 40px;
+}
+// .profile-pic-block{
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+// }
+.profile-image{
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+.margin-top-40{
+  margin-top: 40px;
+}
+
+.profile-heading{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.profile-sub-heading{
+  font-size: 16px;
+  margin-top: 10px;
+  padding: 0px 30px;
+}
+.Skills{
+  border:2px solid #04C2C9;
+  background: #04C2C9;
+  color:white;
+  font-size: 16px;
+  padding: 5px 10px;
+}
+.skills-percentage{
+  border: 2px solid #00A1A7;
+  background-color: #00A1A7;
+  color:white;
+  font-size: 16px;
+  display: inline;
+  padding:5px 100px;
+}
+.remove-padding{
+  padding:0px;
+}
+.background-lightgrey{
+  background: lightgrey;
+  padding: 4px 0px;
+}
+.margin-top-20{
+  margin-top: 20px;
+}
+.project-section{
+  background: #f5f5f5;
+}
+
+.project-main-heading{
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.tabs{
+  font-weight: bold;
+  color: rgb(63, 61, 61);
+  cursor: pointer;
+}
+
+.active-tab{
+  background: #E31B6D;
+  padding: 5px 20px;
+  color:white;
+  font-weight: bold;
+}
+
+.padding-5{
+  padding: 5px;
+}
+.blog-main-heading{
+  font-size: 22px;
+  font-weight: bold;
+}
+.blog-heading{
+  font-size: 18px;
+  font-weight: bold;
+}
+.blog-sub-heading{
+  font-size: 16px;
+  padding:10px;
+}
+
+.contact-section{
+  background: #252934;
+}
+.contact-main-heading{
+  font-size: 22px;
+  font-weight: bold;
+  color:white;
+}
+.contact-sub-heading{
+  color: white;
+}
