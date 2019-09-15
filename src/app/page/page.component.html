@@ -9,18 +9,27 @@
 
 <div class="nav-bar-fit">
   <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
+    <nav class="navbar navbar-expand-lg navbar-light nav-background">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
           <li class="nav-item active">
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Link</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
         </ul>
       </div>
     </nav>
+    
   </div>
 </div>
 
@@ -34,7 +43,7 @@
       </div>
     </div>
     <div class="row margin-top-40 margin-bottom-40">
-      <div class="col-3" align="center">
+      <div class="col-12 col-sm-6 col-md-3" align="center">
         <div class="hexagon-icon">
           <i class="material-icons">
             speed
@@ -45,7 +54,7 @@
           Fast load times and lag free interaction, my highest priority.
         </div>
       </div>
-      <div class="col-3" align="center">
+      <div class="col-12 col-sm-6 col-md-3" align="center">
         <div class="hexagon-icon">
           <i class="material-icons">
             mobile_screen_share
@@ -56,7 +65,7 @@
           My layouts will work on any device, big or small.
         </div>
       </div>
-      <div class="col-3" align="center">
+      <div class="col-12 col-sm-6 col-md-3" align="center">
         <div class="hexagon-icon">
           <i class="material-icons">
             speed
@@ -67,7 +76,7 @@
           Fast load times and lag free interaction, my highest priority.
         </div>
       </div>
-      <div class="col-3" align="center">
+      <div class="col-12 col-sm-6 col-md-3" align="center">
         <div class="hexagon-icon">
           <i class="material-icons">
             speed
@@ -81,7 +90,7 @@
     </div>
 
     <div class="row margin-top-40">
-      <div class="col-md-6 col-sm-12 col-xs-12" align="center">
+      <div class="col-md-6 col-sm-12 col-xs-12 animated-slide-in-left" align="center">
         <div class="profile-pic-block">
           <img class="profile-image" src="./../../assets/image/black_wall.jpg" alt="">
           <div class="profile-heading">Who's this guy?</div>
@@ -91,8 +100,8 @@
           </div>
         </div>
       </div>
-      <div class="col-md-6 col-sm-12 col-xs-12">
-        <div *ngFor="let temp of skills; index as i">
+      <div class="col-md-6 col-sm-12 col-xs-12 animated-slide-in-right">
+        <!-- <div *ngFor="let temp of skills; index as i">
           <div class="row" [ngClass]="{'margin-top-20':temp.index>0}">
             <div class="col-12 remove-padding background-lightgrey">
               <div>
@@ -105,8 +114,20 @@
               </div>
             </div>
           </div>
+        </div> -->
+        <div class="row margin-bottom-15" *ngFor="let temp of skills">
+          <div class="col-3 remove-padding">
+            <div class="subject-tab">
+              {{temp.subject}}
+            </div>
+          </div>
+          <div class="col-9 remove-padding">
+            <div class="progress h-100 border-radius-0">
+              <div class="progress-bar" role="progressbar" style="width:70%" aria-valuemin="0" aria-valuemax="100">
+                {{temp.percentage}}</div>
+            </div>
+          </div>
         </div>
-
       </div>
     </div>
   </div>
@@ -139,7 +160,7 @@
     </div>
 
     <div class="row margin-top-20">
-      <div class="col-4 margin-top-20" align="center" *ngFor="let temp of [1,2,3,4,5,6]">
+      <div class="col-12 col-sm-6 col-md-4 margin-top-20" align="center" *ngFor="let temp of [1,2,3,4,5,6]">
         <img class="project-image" src="./../../assets/image/black_wall.jpg" alt="">
       </div>
     </div>
@@ -159,7 +180,7 @@
       </div>
     </div>
     <div class="row margin-top-20">
-      <div class="col-3" align="center" *ngFor="let temp of [1,2,3,4]">
+      <div class="col-12 col-sm-6 col-md-3" align="center" *ngFor="let temp of [1,2,3,4]">
         <img class="project-image" src="./../../assets/image/black_wall.jpg" alt="">
         <div class="blog-heading">
           Breaking Your
@@ -186,7 +207,7 @@
     <div class="row">
       <div class="col-12" align="center">
         <div class="contact-sub-heading">
-            Have a question or want to work together
+          Have a question or want to work together
         </div>
       </div>
     </div>
