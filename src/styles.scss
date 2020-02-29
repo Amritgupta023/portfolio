@@ -1,5 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "../node_modules/bootstrap/dist/css/bootstrap.css";
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css"; // your theme
+
+
 
 body {
   margin: 0px;
@@ -12,4 +17,8 @@ body {
 }
 .border-radius-0 {
   border-radius: 0px;
+}
+
+.mat-sidenav-container, .mat-sidenav-content, .mat-tab-body-content {
+  transform: none !important;
 }

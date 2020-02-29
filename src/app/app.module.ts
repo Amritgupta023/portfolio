@@ -9,14 +9,18 @@ import { MaterialModule } from "./material.module";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { NoopAnimationsModule } from "@angular/platform-browser/animations";
 import { ReactiveFormsModule } from '@angular/forms';
+import { NgxGalleryModule } from 'ngx-gallery';
+import { ProjectViewComponent } from './project-view/project-view.component';
+import { LoginComponent } from './login/login.component';
 @NgModule({
-  declarations: [AppComponent, PageComponent],
+  declarations: [AppComponent, PageComponent, ProjectViewComponent, LoginComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     NoopAnimationsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    NgxGalleryModule
   ],
   providers: [],
   bootstrap: [AppComponent]

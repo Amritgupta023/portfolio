@@ -42,7 +42,7 @@
   color: rgb(207, 173, 173);
   position: sticky;
   top: 0;
-  z-index: 1;
+  z-index: 9999;
   border-bottom: 3px solid #04c2c9;
 }
 .hexagon-icon {
@@ -143,6 +143,15 @@
 }
 .remove-padding {
   padding: 0px;
+}
+.remove-padding-left{
+  padding-left:0px;
+}
+.remove-padding-right{
+  padding-right: 0px;
+}
+.margin-left-right-5{
+  margin: 5px;
 }
 .background-lightgrey {
   background: lightgrey;
@@ -252,7 +261,10 @@
   color: white !important;
 }
 
-.navbar-nav .active {
+// .navbar .active {
+//   color: #e31b6d;
+// }
+.navbar-dark .navbar-nav .active>.nav-link{
   color: #e31b6d;
 }
 .nav-background {
@@ -317,4 +329,15 @@
 .submit-btn{
   background: #00a1a7;
   color: white;
+}
+
+.nav-item{
+  font-size: 18px;
+}
+.navbar-toggler{
+  color: white;
+}
+
+.nav-item:hover{
+  color: #e31b6d;
 }
