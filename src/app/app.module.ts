@@ -15,7 +15,7 @@ import { LoginComponent } from './login/login.component';
 @NgModule({
   declarations: [AppComponent, PageComponent, ProjectViewComponent, LoginComponent],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,
     BrowserAnimationsModule,
     NoopAnimationsModule,
