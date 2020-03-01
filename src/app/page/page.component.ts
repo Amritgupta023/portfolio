@@ -4,7 +4,6 @@ import axios from 'axios';
 import { environment } from 'src/environments/environment';
 import Swal from 'sweetalert2'
 import { NgxGalleryOptions, NgxGalleryImage, NgxGalleryAnimation } from 'ngx-gallery';
-import 'hammerjs';
 import { Router } from '@angular/router';
 // const skills = require('./../../shared/skills.json')
 @Component({
